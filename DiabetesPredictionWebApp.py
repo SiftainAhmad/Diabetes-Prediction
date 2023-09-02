@@ -12,7 +12,7 @@ import streamlit as st  #creating the web page
 
 #loading the saved model
 
-loaded_model=pickle.load(open('C:/Users/sifta/Desktop/ML Notes/Projects/Diabete_Pred_Model_Deployment/trained_model.sav','rb'))
+loaded_model=pickle.load(open('trained_model.sav','rb'))
 
 #Creating a function for prediction
 def diabetes_predictoin(input_data):
